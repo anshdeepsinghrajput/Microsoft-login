@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: rgb(229,228,250);
+    background: radial-gradient(circle, rgba(229,228,250,1) 13%, rgba(255,229,251,1) 48%, rgba(216,255,219,1) 100%);
+}
+
+.main-container{
+    height: 350px;
+    width: 450px;
+    padding:45px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.55);
+    margin: 130px auto 30px ;
+}
+
+.main-container img{
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+.main-container h1{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.main-container input{
+    border: none;
+    width: 95%;
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.main-container p{
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.main-container a{
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.main-container  a{
+    color: #0067B8;
+}
+
+.main-container a:hover{
+    color: #808080;
+    text-decoration: underline;
+}
+
+.back{
+    background-color: rgba(0,0,0,0.2);
+    font-weight: 400;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+
+.back:hover{
+    background-color: #B5B5B5;
+}
+
+.next{
+    background-color: #0067B8;
+    font-weight: 400;
+    border: none;
+    width: 100px;
+    height: 30px;
+    color: white;
+}
+
+.next:hover{
+    background-color: #015ca1;
+}
+
+.btns{
+    margin-top: 30px;
+    margin-left: 140px;
+}
+
+.sign-in{
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.55);
+    width: 450px;
+    height: 50px;
+    padding-left: 45px;
+    margin: 0 auto ;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sign-in:hover{
+    background-color: #D0D0D0;
+}
+
+.sign-in h5{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.bi-key{
+    font-size: 30px ;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        width: 100%;
+        height: 100%;
+        background: white;
+    }
+
+    .main-container{
+        height: 330px;
+        width: 440px;
+        padding:25px;
+        background-color: white;
+        box-shadow: none;
+        margin: 0px auto ;
+        padding-bottom: 0px;
+    }
+
+    .btns{
+        margin-left: 175px;
+    }
+
+    .sign-in{
+        box-shadow: none;
+        border: 1px solid black;
+        width: 390px;
+        height: 50px;
+    }
+
+
+}
